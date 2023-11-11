@@ -13,9 +13,6 @@ myapp/views.py<br/>
 URLの設定:<br/>
 myproject/urls.py<br/> 
 
-appの追加<br/>
-myproject/settings.py<br/> 
-
 python manage.py runserver<br/>  
 
 http: //127.0.0.1:8000/hello/<br/>

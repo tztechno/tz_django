@@ -1,7 +1,9 @@
 # tz_django
 
-django-admin startproject myproject<br/> 
+django-admin startproject myproject<br/>
+
 cd myproject<br/> 
+
 python manage.py startapp myapp<br/>   
 
 View設定:<br/>

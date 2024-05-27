@@ -90,7 +90,7 @@ myproj/
 │   ├── apps.py        # アプリケーションの設定
 │   ├── models.py      # データモデルの定義
 │   ├── tests.py       # アプリケーションのテスト
-│   └── views.py       # ビュー関数やクラスの定義
+│   └── views.py       # ビュー関数やクラスの定義 --- "Hello, Django!"
 ├── manage.py           # Djangoプロジェクト管理用のスクリプト
 └── requirements.txt    # 依存関係のリスト
 ```

@@ -75,7 +75,51 @@ http://127.0.0.1:8000/myapp/
 
 ---
 ---
+
+```
+myproj/
+├── myproj/          # プロジェクトの設定とPythonパッケージ
+│   ├── __init__.py
+│   ├── settings.py     # プロジェクトの設定
+│   ├── urls.py         # プロジェクトのURLルーティング
+│   ├── wsgi.py         # WSGI互換のWebサーバーのエントリーポイント
+├── myapp/           # アプリケーションのフォルダ
+│   ├── migrations/    # データベースのマイグレーションファイル
+│   ├── __init__.py
+│   ├── admin.py       # Django管理サイトの設定
+│   ├── apps.py        # アプリケーションの設定
+│   ├── models.py      # データモデルの定義
+│   ├── tests.py       # アプリケーションのテスト
+│   └── views.py       # ビュー関数やクラスの定義
+├── manage.py           # Djangoプロジェクト管理用のスクリプト
+└── requirements.txt    # 依存関係のリスト
+```
+
 ---
+
+```
+myproj/
+├── myproj/          # プロジェクトの設定とPythonパッケージ
+│   ├── __init__.py
+│   ├── settings.py     # プロジェクトの設定
+│   ├── urls.py         # プロジェクトのURLルーティング
+│   ├── wsgi.py         # WSGI互換のWebサーバーのエントリーポイント
+├── myapp/           # アプリケーションのフォルダ
+│   ├── migrations/    # データベースのマイグレーションファイル
+│   ├── __init__.py
+│   ├── admin.py       # Django管理サイトの設定
+│   ├── apps.py        # アプリケーションの設定
+│   ├── models.py      # データモデルの定義
+│   ├── tests.py       # アプリケーションのテスト
+
+│   ├── urls.py                    #### 新設
+│   ├── templates/myapp/index.html #### 新設
+
+│   └── views.py       # ビュー関数やクラスの定義
+├── manage.py           # Djangoプロジェクト管理用のスクリプト
+└── requirements.txt    # 依存関係のリスト
+```
+
 ---
 ---
 ---

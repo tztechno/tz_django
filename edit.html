@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Post</title>
+</head>
+
+<body>
+    <h1>Edit Post</h1>
+    <form action="{% url 'edit' post.id %}" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Update Post">
+    </form>
+    <a href="{% url 'index' %}">Back to Home</a>
+</body>
+
+</html>
